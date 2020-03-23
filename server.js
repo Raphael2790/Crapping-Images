@@ -5,7 +5,7 @@ const dotenv = require('dotenv/config')
 const server = express();
 const port = process.env.PORT || 5000;
 
-const scrap = require('./assets/scrapping');
+const scraper = require('./assets/scrapping');
 
 server.use(express.static('public'));
 
